@@ -1,0 +1,19 @@
+.tile {
+  @apply bg-black text-center text-white shadow-md py-4 rounded-md
+}
+
+.tile-number {
+  @apply md:text-3xl text-lg text-center font-bold
+}
+
+.tile-title {
+  @apply flex text-black justify-center font-bold uppercase md:mt-6 mt-3 mb-3 md:text-xl
+}
+
+.tile-header {
+  @apply md:text-lg text-xs uppercase font-sans
+}
+
+.tile-desc {
+  @apply text-green-500 md:text-sm text-xs md:mt-2
+}

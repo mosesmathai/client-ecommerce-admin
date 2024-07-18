@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Old Styles bellow */
+
+.my-button {
+  background-color: purple;
+  color: white;
+}
+
+.shadow {
+  box-shadow: inset 0 0 100px #000000;
+}
+
+.purple-settings-main {
+  @apply w-screen h-screen flex flex-col justify-center items-center
+}
+
+
+.primary-button {
+  @apply p-2 rounded-md
+}
+
+.secondary-button {
+  @apply p-2 rounded-md text-white border 
+}
+
+.primary-button-sm {
+  @apply px-1 py-2 rounded-md
+}
+
+.secondary-button-sm {
+  @apply text-white py-1 px-2 border border-white rounded-md inline-flex gap-1 items-center 
+}
+
+.secondary-button-pages {
+  @apply px-2 py-2 rounded-md text-white border 
+}
+
+input, select {
+  @apply border-2 border-gray-400 px-1 rounded-md outline-none mb-2 w-full
+}
+
+input:focus, select:focus {
+  @apply border-black outline-none
+}
+
+textarea {
+  @apply border-2 border-gray-400 px-1 h-40 rounded-md outline-none mb-2 w-full
+}
+
+textarea:focus {
+  @apply border-black outline-none 
+}
+
+label.basic {
+  @apply text-gray-700 font-bold mb-2
+}
+
+h1 {
+  @apply font-bold text-black mb-2 text-lg
+}
+
+table.basic {
+  @apply w-full mt-5
+}
+
+
+table.basic tr td {
+  @apply border outline-none border-white p-1
+}
+
+table.basic a {
+  @apply bg-black text-sm mr-2 text-white py-1 px-2 rounded-md inline-flex gap-1 items-center
+}
+table.basic a.delete {
+  @apply bg-gray-500 mt-2 mb-2
+}
+
+.new-delete-btn {
+  @apply text-white py-1 px-2 bg-gray-500 rounded-md inline-flex gap-1 items-center
+}
+
+.btn-red, .btn-default {
+  @apply px-4 py-2 rounded-md
+}
+
+.btn-red {
+  @apply bg-red-800 text-white
+}
+
+.btn-default {
+  @apply bg-gray-400
+}
+
+img {
+  max-height: 100%;
+}
